@@ -1,0 +1,61 @@
+{
+  "validation_results": {
+    "Baseline (Majority)": {
+      "Accuracy": 0.6303,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "ROC_AUC": 0.5
+    },
+    "Logistic Regression": {
+      "Accuracy": 0.6515,
+      "Precision": 0.6076,
+      "Recall": 0.1618,
+      "F1": 0.2555,
+      "ROC_AUC": 0.6387
+    },
+    "Random Forest": {
+      "Accuracy": 0.6578,
+      "Precision": 0.6528,
+      "Recall": 0.1589,
+      "F1": 0.2556,
+      "ROC_AUC": 0.6656
+    },
+    "XGBoost": {
+      "Accuracy": 0.6572,
+      "Precision": 0.5832,
+      "Recall": 0.2542,
+      "F1": 0.354,
+      "ROC_AUC": 0.6637
+    },
+    "XGBoost (Tuned)": {
+      "Accuracy": 0.6408,
+      "Precision": 0.5249,
+      "Recall": 0.2968,
+      "F1": 0.3792,
+      "ROC_AUC": 0.6404
+    },
+    "Stacking Ensemble": {
+      "Accuracy": 0.657,
+      "Precision": 0.7105,
+      "Recall": 0.1217,
+      "F1": 0.2079,
+      "ROC_AUC": 0.6651
+    }
+  },
+  "test_metrics": {
+    "Accuracy": 0.63,
+    "Precision": 0.5419,
+    "Recall": 0.2796,
+    "F1": 0.3689,
+    "ROC_AUC": 0.6315
+  },
+  "best_model": "XGBoost (Tuned)",
+  "best_xgb_params": {
+    "model__subsample": 0.8,
+    "model__n_estimators": 500,
+    "model__max_depth": 6,
+    "model__learning_rate": 0.12,
+    "model__colsample_bytree": 1.0
+  }
+}

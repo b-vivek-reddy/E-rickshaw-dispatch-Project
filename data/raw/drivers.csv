@@ -1,0 +1,17 @@
+driver_id,home_zone,shift_type,avg_speed_kmph,experience_months
+D100,Admin Block,full,16.9,33
+D101,Sports Complex,evening,17.1,16
+D102,Shopping Complex,full,19.3,6
+D103,Main Gate,evening,18.9,30
+D104,Medical Center,day,19.0,23
+D105,Medical Center,night,19.1,25
+D106,Academic Block C,full,23.4,4
+D107,Boys Hostel Zone 1,full,17.0,11
+D108,Academic Block A,day,16.7,27
+D109,Girls Hostel Zone,evening,16.0,30
+D110,Boys Hostel Zone 2,day,19.5,16
+D111,Central Library,night,20.8,29
+D112,Admin Block,evening,17.7,30
+D113,Back Gate,full,15.9,14
+D114,Food Court 1,evening,15.9,32
+D115,Shopping Complex,day,19.6,11
