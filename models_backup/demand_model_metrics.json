@@ -1,0 +1,47 @@
+{
+  "validation_results": {
+    "Baseline (Mean)": {
+      "MAE": 0.4354,
+      "RMSE": 0.6325,
+      "R2": -0.0035
+    },
+    "Linear Regression": {
+      "MAE": 0.3897,
+      "RMSE": 0.5844,
+      "R2": 0.1432
+    },
+    "Random Forest": {
+      "MAE": 0.369,
+      "RMSE": 0.5767,
+      "R2": 0.1655
+    },
+    "XGBoost": {
+      "MAE": 0.3628,
+      "RMSE": 0.5677,
+      "R2": 0.1913
+    },
+    "XGBoost (Tuned)": {
+      "MAE": 0.3652,
+      "RMSE": 0.5731,
+      "R2": 0.1761
+    },
+    "Voting Ensemble": {
+      "MAE": 0.3668,
+      "RMSE": 0.5738,
+      "R2": 0.174
+    }
+  },
+  "test_metrics": {
+    "MAE": 0.3466,
+    "RMSE": 0.5433,
+    "R2": 0.1968
+  },
+  "best_model": "XGBoost",
+  "best_xgb_params": {
+    "model__subsample": 0.8,
+    "model__n_estimators": 250,
+    "model__max_depth": 8,
+    "model__learning_rate": 0.02,
+    "model__colsample_bytree": 0.8
+  }
+}
