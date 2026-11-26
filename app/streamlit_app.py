@@ -31,9 +31,12 @@ sys.path.insert(0, str(ROOT / "src"))
 from utils import RAW_DIR, MODELS_DIR, FIGURES_DIR, load_locations, zone_distance_matrix  # noqa: E402
 from dispatch import DispatchEngine  # noqa: E402
 
-st.set_page_config(page_title="Campus E-Rickshaw Dispatch", page_icon="🛺", layout="wide")
-
-# =============================================================================
+st.set_page_config(
+    page_title="Campus E-Rickshaw Dispatch",
+    page_icon="🛺",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)# =============================================================================
 # STYLING
 # =============================================================================
 st.markdown("""
@@ -41,7 +44,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 
-#MainMenu, footer, [data-testid="stToolbar"], [data-testid="stDecoration"] { visibility: hidden; }
+#MainMenu, footer,[data-testid="stDecoration"] { visibility: hidden; }
 header[data-testid="stHeader"] { background: transparent !important; }
 .block-container { padding-top: 4rem; max-width: 1280px; }
 
